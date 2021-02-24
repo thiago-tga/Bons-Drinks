@@ -5,7 +5,7 @@ export default class FormContato extends Component {
         return (
             <div className="Form-contato content">
                 <h1 className="title-contato">Contato</h1>
-                <img className="contact-pic" src="../img/contact-pic.jpg" alt=""/>
+                <img className="contact-pic" src="../img/contact-" alt=""/>
                 <div className="form">
                     <form className="contact-form">
                         <div className="item-form">
@@ -18,7 +18,7 @@ export default class FormContato extends Component {
                         </div>
                         <div className="item-form">
                             <label htmlFor="message">Mensagem: </label>
-                            <textarea name="message" id="" cols="30" rows="10"></textarea>
+                            <textarea name="message" ></textarea>
                         </div>
                         <div className="item-form">
                         <button className="btn-contact highlight-secondary " type="submit">Enviar</button>
