@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import "./FormContato.css";
 
 export default class FormContato extends Component {
     render() {

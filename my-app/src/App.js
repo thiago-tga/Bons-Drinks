@@ -1,7 +1,7 @@
 import './App.css';
-import Footer from './Componentes/Components/Footer';
-import FormContato from './Componentes/Components/FormContato';
-import Header from './Componentes/Components/Header';
+import Footer from './Componentes/Footer/Footer';
+import FormContato from './Componentes/FormContato/FormContato';
+import Header from './Componentes/Header/Header';
 
 function  App () {
   return (
