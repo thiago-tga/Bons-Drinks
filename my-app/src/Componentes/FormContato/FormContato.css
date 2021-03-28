@@ -1,0 +1,65 @@
+.Form-contato-content{
+    display: grid;
+    justify-content: center;
+    grid-template-areas: 
+    "title title"
+    "half1 half2";
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    row-gap: 20px;
+    column-gap: 20px;
+    gap: 20px;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.title-contato{
+    grid-area: 'title';
+    grid-row-start: title;
+    grid-column-start: title;
+    grid-row-end: title;
+    grid-column-end: title;
+    justify-content: center;
+    font-family: var(--title-font);
+    font-weight: 700;
+    font-size: 30px;
+    color: #5c0511;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.contact-pic{
+    grid-area: 'half1';
+    margin-block-start: 0;
+    grid-area: half1;
+    grid-row-start: half1;
+    grid-column-start: half1;
+    grid-row-end: half1;
+    grid-column-end: half1;
+    max-width: 100%;
+    align-self: start;
+    object-fit: cover;
+    max-height: 400px;
+    width: 550px;
+    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.contact-form{
+    grid-area: half2;
+    grid-row-start: half2;
+    grid-column-start: half2;
+    grid-row-end: half2;
+    grid-column-end: half2;
+    align-self: start;
+    display: block;
+    width: 100%;
+}
+.name{
+    display: block;
+    font-size: 18px;
+    font-family: var(--title-font);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
