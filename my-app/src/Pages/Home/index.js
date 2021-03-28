@@ -1,12 +1,13 @@
 import React from 'react';
 import './home.css';
+import AnimatedTitle from '../../Componentes/AnimatedTitle/animatedTitle'
 
 
 
 const Home = () => {
     return (
         <div className='homePage'>
-            <h1 className ='logo'>Bons Drinks</h1>
+            <AnimatedTitle/>
         </div>
     )
 }

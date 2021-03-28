@@ -12,11 +12,7 @@
     justify-self: center
 }
 .titleNossoTime{
-    grid-area: 'title';
-    grid-row-start: title;
-    grid-column-start: title;
-    grid-row-end: title;
-    grid-column-end: title;
+    grid-area: title;
     justify-content: center;
     font-family: var(--title-font);
     font-weight: 700;
