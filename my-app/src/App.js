@@ -1,14 +1,14 @@
-import './App.css';
-import Footer from './Componentes/Footer/Footer';
-import FormContato from './Componentes/FormContato/FormContato';
-import Header from './Componentes/Header/Header';
+import "./App.css";
+import Footer from "./Componentes/Footer/Footer";
+import FormContato from "./Componentes/FormContato/FormContato";
+import Header from "./Componentes/Header/Header";
 
-function  App () {
+function App() {
   return (
     <div className="App grid">
-      <Header/>
-      <FormContato/>
-      <Footer/>
+      <Header />
+      <FormContato />
+      <Footer />
     </div>
   );
 }

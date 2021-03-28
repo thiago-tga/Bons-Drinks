@@ -1,4 +1,33 @@
-.a {
-text-align: center;
+.Menu {
+  grid-area: "header";
+  background-color: white;
+  padding: 10px 0 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
 
+.NavMenu {
+  display: flex;
+  align-self: center;
+}
+
+.NavMenuItem {
+  font-size: 26px;
+  color: #101010;
+  padding: 10px;
+  align-self: center;
+}
+.NavMenuItem:hover {
+    color: #f9ae48;
+}
+
+.LogoBonsDrinks {
+  font-size: 36px;
+  text-decoration: none;
+  color: #101010;
+  padding: 8px;
+  align-self: center;
+}
+.LogoBonsDrinks:hover{
+    color: #f9ae48;
 }
