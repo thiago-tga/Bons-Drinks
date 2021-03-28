@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import "./Header.css";
 
-export default class Header extends Component {
-  render() {
+const Header = ()=> {
     return (
       <div className="Menu">
         <li className="NavMenu">
@@ -13,6 +12,6 @@ export default class Header extends Component {
           <ul className = "NavMenuItem">Contato</ul>
         </li>
       </div>
-    );
-  }
-}
+    )
+  };
+export default Header;

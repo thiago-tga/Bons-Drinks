@@ -1,11 +1,14 @@
-import React, { Component } from 'react'
-import "./Footer.css"
-export default class Footer extends Component {
-    render() {
+import React,{ Component } from 'react';
+import '../../Asserts/reset.css'
+import "./Footer.css";
+const footer = () =>{
         return (
             <div className="Footer">
-                <p> Resilia 2021 - Alguns direitos reservados </p>
+                <footer>
+                    <p className='pFooter'>Thiago Araujo 2021 - Alguns direitos reservados </p>
+                </footer>
             </div>
-        );
+        )
     };
-};
+
+export default footer
