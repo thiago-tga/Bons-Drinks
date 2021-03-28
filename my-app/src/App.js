@@ -3,7 +3,8 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import "./App.css";
 import Footer from "./Componentes/Footer/Footer";
 import Header from "./Componentes/Header/Header";
-import Contato from "../src/Pages/Contato/Contato";
+import Contato from "./Pages/Contato/index";
+import Home from "./Pages/Home/index";
 
 function App() {
   return (
@@ -14,6 +15,11 @@ function App() {
           <Route path="/contato">
             <Contato/>
           </Route>
+
+          <Route path='/'>
+            <Home/>
+          </Route>
+          
         </Switch>
         <Footer />
       </BrowserRouter>

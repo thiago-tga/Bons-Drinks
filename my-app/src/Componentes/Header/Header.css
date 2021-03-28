@@ -1,21 +1,24 @@
 .Menu {
   grid-area: "header";
-  background-color: white;
-  padding: 10px 0 10px 0;
-  display: flex;
-  justify-content: space-between;
+  background-color:#fffbef;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 42%);
 }
 
 .NavMenu {
   display: flex;
   align-self: center;
+  justify-content: space-around;
+  margin: 5px;
 }
 
 .NavMenuItem {
+  text-decoration: none;
   font-size: 26px;
   color: #101010;
+  font-family: var(--title-font);
   padding: 10px;
   align-self: center;
+  font-weight: 700;
 }
 .NavMenuItem:hover {
     color: #f9ae48;
@@ -24,6 +27,7 @@
 .LogoBonsDrinks {
   font-size: 36px;
   text-decoration: none;
+  font-family: var(--logo-font);
   color: #101010;
   padding: 8px;
   align-self: center;
