@@ -3,9 +3,10 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import "./App.css";
 import Footer from "./Componentes/Footer/Footer";
 import Header from "./Componentes/Header/Header";
-import Contato from "./Pages/Contato/index";
-import Home from "./Pages/Home/index";
 import SobreNos from "./Pages/SobreNos/index";
+import Home from "./Pages/Home/index";
+import NossoTime from './Pages/NossoTime/index'
+import Contato from "./Pages/Contato/index";
 
 function App() {
   return (
@@ -17,8 +18,12 @@ function App() {
             <SobreNos/>
           </Route>
 
-          <Route path='/'>
+          <Route exact path='/' >
             <Home/>
+          </Route>
+
+          <Route path='/time'>
+            <NossoTime/>
           </Route>
 
           <Route path="/contato">
