@@ -5,6 +5,7 @@ import Footer from "./Componentes/Footer/Footer";
 import Header from "./Componentes/Header/Header";
 import Contato from "./Pages/Contato/index";
 import Home from "./Pages/Home/index";
+import SobreNos from "./Pages/SobreNos/index";
 
 function App() {
   return (
@@ -12,12 +13,16 @@ function App() {
       <BrowserRouter>
         <Header />
         <Switch>
-          <Route path="/contato">
-            <Contato/>
+          <Route path = '/sobre'>
+            <SobreNos/>
           </Route>
 
           <Route path='/'>
             <Home/>
+          </Route>
+
+          <Route path="/contato">
+            <Contato/>
           </Route>
           
         </Switch>
