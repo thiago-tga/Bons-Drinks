@@ -1,0 +1,36 @@
+.cardGrid{
+    font-size: 18px;
+    color: #101010;
+    grid-column: 2/5;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    display: grid;
+    grid-template-areas:
+     "text text img";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    row-gap: 20px;
+    column-gap: 20px;
+    gap: 20px;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.cardImg{
+    grid-area: img;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    justify-self: end;
+}
+.cardHeading{
+    grid-area: text;
+    color: #101010;
+    font-family: var(--body-font);
+    font-size: 18px;
+    font-weight: 700;
+}
+.cardText{
+    color: #101010;
+    font-family: var(--body-font);
+    font-size: 18px;
+}

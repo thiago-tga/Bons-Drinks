@@ -13,7 +13,7 @@ const NossoTime = () => {
                 <img className='imgIntegrante' src={Integrante1}/>
                 <div>
                     <h1 className='nameIntegante'> Thiago Araujo </h1>
-                    <p className='textIntegrante'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p className='textIntegrante'>eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
      
             </div>
