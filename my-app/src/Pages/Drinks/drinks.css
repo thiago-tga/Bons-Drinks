@@ -6,8 +6,6 @@
         "title title"
         "navi navi "
         "content content";
-    grid-template-columns: 1fr ,1fr;
-    grid-template-rows: 1fr, 1fr ;
     grid-gap: 20px;
     row-gap: 20px;
     column-gap: 20px;
@@ -23,12 +21,13 @@
     grid-column-end: content;
 
 }
+.buttonNavLink{
+    grid-area: navi;
+    display: flex;
+    justify-content: space-around;
+}
 .titleDrinks{
-    grid-area: 'title';
-    grid-row-start: title;
-    grid-column-start: title;
-    grid-row-end: title;
-    grid-column-end: title;
+    grid-area: title;
     justify-content: center;
     font-family: var(--title-font);
     font-weight: 700;

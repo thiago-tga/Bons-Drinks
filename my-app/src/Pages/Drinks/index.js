@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink, Route, Switch } from 'react-router-dom';
 import './drinks.css';
 import DrinksDaGalera from './drinksDaGalera';
+import ProcureDrink from './procureDrink'
 
 const Drinks = () => {
     return (
@@ -19,6 +20,7 @@ const Drinks = () => {
                         <DrinksDaGalera/>
                     </Route>
                     <Route path='/drinks/buscar'>
+                        <ProcureDrink/>
                     </Route>
                 </Switch>
             </section>
